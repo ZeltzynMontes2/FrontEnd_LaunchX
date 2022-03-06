@@ -18,5 +18,5 @@
 - [Toma de requerimientos](./1-Requerimientos.pdf) 
 - [Buyer persona](./2-Buyer_persona.pdf)
 - [Publico objetivo](./3-Publico_objetivo.pdf)
-- [Wireframe UX](./4.wireframe.md)
-- [UI](./5.ui.md)
+- [Wireframe UX](./4-WireframeUX.md)
+- [UI](./5-UI.md)
