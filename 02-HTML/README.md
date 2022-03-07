@@ -16,5 +16,5 @@
 
 **Practicas:**
 - [Crear marca de la pastelería como un logo y los mensajes que daremos desde la marca.](./1-Logo.pdf)
-- [Maquetación de páginas de cliente de la pastelería.](./2-Pagina_cliente.pdf) 
-- [Maquetación de páginas del pastelero.](./2-Pagina_pastelero.pdf) 
+- [Maquetación de páginas de cliente de la pastelería.](./2-Pagina_cliente.png) 
+- [Maquetación de páginas del pastelero.](./2-Pagina_pastelero.png) 
