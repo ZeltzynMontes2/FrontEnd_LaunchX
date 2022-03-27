@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title> 
+    <link rel="stylesheet" href="./css/pokedex.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="screenIMG">
+            <div class="imagen">
+                <img src="./img/pokeball.png" alt="Pokemon" id="pokeImg" class="pokeimg">           
+            </div>
+        </div>
+        <div class="screen">
+            <div class="data">
+                <input type="text" id="numero" value="0" disabled="true" hidden="true">
+                <p class="text__name">Name:</p>
+                <input type="text" class="text__name" id="nombre" value="" disabled="true">
+                <p class="text__name">Type:</p>
+                <input type="text" class="text__name" id="tipo" value="" disabled="true">
+            </div>
+        </div>
+
+        <div class="forma">
+            <div class="Container__botonBuscar">
+                <a href="javascript:fetchPokemon();" id="btnBuscar" class="botonBuscar">Buscar</a>
+            </div>
+            <div class="forma__input">
+                <input type="text" placeholder="Pikachu" id="pokeName" name="pokeName" class="input">
+            </div>
+            <div class="botones">
+                <a href="javascript:decremPokem()" class="botones__ctr der"></a>
+                <p class="botones__ctr bc"></p>
+                <a href="javascript:incremPokem()" class="botones__ctr izq"></a>
+            </div>            
+        </div>
+
+        <div class="pokebottom">
+            <img src="./img/details.png" alt="" width="90%">
+        </div>
+    </div>
+
+</body>  
+<footer>
+     <script src="./js/pokedex.js"></script>
+</footer>
+</html>
